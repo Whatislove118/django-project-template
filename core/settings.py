@@ -61,7 +61,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "#{project_name}.urls"
+ROOT_URLCONF = "core.urls"
 
 
 REST_FRAMEWORK = {
@@ -94,7 +94,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "#{project_name}.wsgi.application"
+WSGI_APPLICATION = "core.wsgi.application"
 CORS_ORIGIN_ALLOW_ALL = True
 # CORS_ALLOWED_ORIGINS = ()
 # CORS_ALLOW_CREDENTIALS = True # разрешает использование куков при кросс-доменных запросах
